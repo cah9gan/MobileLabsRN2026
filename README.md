@@ -8,11 +8,11 @@
 Додаток містить нижню навігацію (Bottom Tabs) та складається з трьох основних екранів:
 
 1. **Головна (Новини):** Стрічка новин з використанням компонента `ScrollView`.
-   ![Головна](https://github.com/cah9gan/MobileLabsRN2026/blob/master/newsPage.jpg)
+<img src="https://github.com/cah9gan/MobileLabsRN2026/blob/master/newsPage.jpg" width="150" />
 2. **Фотогалерея:** Демонстрація роботи зі списком у вигляді сітки (2 колонки).
-   ![Галерея](https://github.com/cah9gan/MobileLabsRN2026/blob/master/galleryPage.jpg)
+   <img src="https://github.com/cah9gan/MobileLabsRN2026/blob/master/galleryPage.jpg" width="150" />
 3. **Профіль:** Форма реєстрації користувача з використанням базових компонентів вводу (`TextInput`).
-   ![Профіль](https://github.com/cah9gan/MobileLabsRN2026/blob/master/profilePage.jpg)
+   <img src="https://github.com/cah9gan/MobileLabsRN2026/blob/master/profilePage.jpg" width="150" />
 
 У додатку реалізовано глобальні Header (з логотипом університету) та Footer.
 
