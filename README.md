@@ -10,9 +10,9 @@
 1. **Головна (Новини):** Стрічка новин з використанням компонента `ScrollView`.
    ![Головна](https://github.com/cah9gan/MobileLabsRN2026/blob/master/newsPage.jpg)
 2. **Фотогалерея:** Демонстрація роботи зі списком у вигляді сітки (2 колонки).
-   ![Галерея](path/to/gallery_screenshot.png)
+   ![Галерея](https://github.com/cah9gan/MobileLabsRN2026/blob/master/galleryPage.jpg)
 3. **Профіль:** Форма реєстрації користувача з використанням базових компонентів вводу (`TextInput`).
-   ![Профіль](path/to/profile_screenshot.png)
+   ![Профіль](https://github.com/cah9gan/MobileLabsRN2026/blob/master/profilePage.jpg)
 
 У додатку реалізовано глобальні Header (з логотипом університету) та Footer.
 
@@ -20,14 +20,20 @@
 
 1. Клонувати репозиторій:
    ```bash
-   git clone [https://github.com/ТВІЙ_ЛОГІН/MobileLabsRN2026.git](https://github.com/ТВІЙ_ЛОГІН/MobileLabsRN2026.git)
+   git clone [https://github.com/cah9gan/MobileLabsRN2026]
    ```
 2. Перейти в директорію проєкту:
+   ```bash
    cd MobileLabsRN2026/lab1
+   ```
 3. Встановити залежності:
+   ```bash
    npm install
+   ```
 4. Запустити сервер Expo:
+   ```bash
    npx expo start
+   ```
 
 ## Опис основних способів запуску мобільного додатка
 
