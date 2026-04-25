@@ -26,8 +26,8 @@
 ## Скріншоти роботи застосунку
 
 <img src="/lab4/pictures/camera.jpg" width="200" />
-<img src="/lab4/pictures/map.jpg.jpg" width="200" />
-<img src="/lab4/pictures/settings.jpg.jpg" width="200" />
+<img src="/lab4/pictures/map.jpg" width="200" />
+<img src="/lab4/pictures/settings.jpg" width="200" />
 
 ---
 
