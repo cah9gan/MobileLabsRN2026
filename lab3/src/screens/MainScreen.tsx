@@ -11,7 +11,6 @@ export default function MainScreen() {
   const translateX = useSharedValue(0);
   const translateY = useSharedValue(0);
 
-  // Изолированные JS-функции. Hermes больше не будет пытаться их "съесть".
   const addTap = () => { updateStat('taps', 1); updateStat('score', 1); };
   const addDoubleTap = () => { updateStat('doubleTaps', 1); updateStat('score', 2); };
   const addLongPress = () => { updateStat('longPresses', 1); updateStat('score', 5); };
@@ -20,7 +19,6 @@ export default function MainScreen() {
   const addSwipeLeft = () => { updateStat('swipesLeft', 1); updateStat('score', 5); };
   const addPinch = () => { updateStat('pinches', 1); updateStat('score', 3); };
 
-  // Добавляем .runOnJS(true), чтобы жест выполнялся ТОЛЬКО в безопасном JS-потоке
   const doubleTap = Gesture.Tap().numberOfTaps(2).runOnJS(true).onStart(() => {
     addDoubleTap();
     scale.value = withSpring(1.2, undefined, () => { scale.value = withSpring(1); });
@@ -35,8 +33,6 @@ export default function MainScreen() {
     addLongPress();
   });
 
-  // Pan (перетаскивание) оставляем на UI-потоке для 60fps плавности,
-  // но результат передаем через runOnJS
   const pan = Gesture.Pan()
     .onChange((event) => {
       translateX.value += event.changeX;

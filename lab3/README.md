@@ -25,10 +25,9 @@
 
 ## Скріншоти роботи застосунку
 
-_(Додайте скріншоти у папку `screenshots` та розкоментуйте рядки нижче)_
-<img src="/lab3/pictures/premierPage.png" width="150" />
-<img src="/lab3/pictures/challengesPage.png" width="150" />
-<img src="/lab3/pictures/settingsPage.png" width="150" />
+<img src="/lab3/pictures/premierPage.png" width="200" />
+<img src="/lab3/pictures/challengesPage.png" width="200" />
+<img src="/lab3/pictures/settingsPage.png" width="200" />
 
 <div style="display: flex; gap: 10px;">
   </div>

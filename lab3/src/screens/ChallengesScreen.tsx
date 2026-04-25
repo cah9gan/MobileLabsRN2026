@@ -16,7 +16,7 @@ export default function ChallengesScreen() {
     { title: 'Swipe Left', current: stats.swipesLeft, target: 1 },
     { title: 'Pinch to resize', current: stats.pinches, target: 1 },
     { title: 'Reach 100 points', current: stats.score, target: 100 },
-    { title: 'Secret: 5 Left Swipes', current: stats.swipesLeft, target: 5 }, // Власне завдання [cite: 265]
+    { title: 'Secret: 5 Left Swipes', current: stats.swipesLeft, target: 5 }, 
   ];
 
   return (
