@@ -20,12 +20,16 @@
 - 📸 **<a href="./lab4/README.md">Лабораторна робота №4: Робота з камерою, галереєю, геолокацією та картами</a>**
   _Взаємодія з апаратними можливостями смартфона: створення фото, доступ до медіатеки, отримання GPS-координат та робота з інтерактивними картами._
 
+- 🗂 **<a href="./lab5/README.md">Лабораторна робота №5: Побудова навігації з Expo Router</a>**
+  _Ознайомлення з file-based маршрутизацією, захищеними маршрутами, глобальним контекстом авторизації та динамічними параметрами._
+
 ---
 
 ### 🛠 Технологічний стек
 
 - **Core:** React Native, Expo, TypeScript
-- **Navigation:** React Navigation (Bottom Tabs, Drawer, Stack)
+- **Navigation:** React Navigation (Bottom Tabs, Drawer, Stack), Expo Router (File-based routing)
+- **State Management:** React Context API
 - **Gestures & Animations:** React Native Gesture Handler, React Native Reanimated
 - **Hardware APIs:** Expo Camera, Expo Location, Expo Media Library, React Native Maps
-- **Styling:** NativeWind (Tailwind CSS)
+- **Styling:** NativeWind (Tailwind CSS), StyleSheet
